@@ -7,43 +7,43 @@ function biodata (){
         is_married : false,
         list_school : [
             {
-                nameSchool : 'SDN Gunung 06 Petang',
-                yearIn : 2008,
-                yearOut : 2013,
+                name_school : 'SDN Gunung 06 Petang',
+                year_in : 2008,
+                year_out : 2013,
                 major : null
             },
             {
-                nameSchool : 'SMP Negeri 12 Jakarta',
-                yearIn : 2013,
-                yearOut : 2016,
+                name_school : 'SMP Negeri 12 Jakarta',
+                year_in : 2013,
+                year_out : 2016,
                 major : null
             },
             {
-                nameSchool : 'SMK Negeri 6 Jakarta',
-                yearIn : 2016,
-                yearOut : 2019,
+                name_school : 'SMK Negeri 6 Jakarta',
+                year_in : 2016,
+                year_out : 2019,
                 major : "Animasi"
             }
         ],
         skills : [
             {
-                skillName : 'Photoshop',
+                skill_name : 'Photoshop',
                 level : 'Beginner'
             },
             {
-                skillName : 'Adobe Illustrator',
+                skill_name : 'Adobe Illustrator',
                 level : 'Beginner'
             },
             {
-                skillName : 'HTML',
+                skill_name : 'HTML',
                 level : 'Beginner'
             },
             {
-                skillName : 'CSS',
+                skill_name : 'CSS',
                 level : 'Beginner'
             },
             {
-                skillName : 'Javascript',
+                skill_name : 'Javascript',
                 level : 'Beginner'
             },
         ],

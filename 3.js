@@ -1,14 +1,12 @@
-function count (hitung) {
-    let hidup = ['a','i','u','e','o'];
-    let vowels = 0;
+function countChar(string, huruf) {
+    let hitung = 0;
 
-    for(i=0;i<hitung.length;i++) {
-        if (hidup.indexOf(hitung[i]) > -1) {
-            vowels++;
+    for (let i = 0; i < string.length; i++) {
+        if (huruf.indexOf(string[i]) !== -1) {
+            hitung++;
         }
     }
-    return vowels;
+    return hitung;
 }
-
-console.log(count('asoloe'));
-console.log(count('html'));
+console.log(countChar('arka','a'))
+console.log(countChar('javascript','x'))

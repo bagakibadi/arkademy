@@ -1,18 +1,22 @@
-function cekUsername (){
-    let validasi = /^[a-z]{5,9}$/;
-    let idUser = document.getElementById("username")
-    if(idUser.Value.match(validasi)){
-        return true;
-    } else {
-        return false;
-}
+function username (name) {
+    let regex = /^[a-z.]{5,9}$/
+    let ekse = regex.exec(name);
 
-function cekPassword () {
-    let validasi = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/
-    let idPass = document.getElementById("password")
-    if (idPass.Value.match(validasi)) {
+    if(ekse) {
         return true;
-    } else {
-        return false;
     }
+    return false;
 }
+console.log(username('jok3r'))
+console.log(username('suparman'))
+
+function password (password) {
+    let regex = /^(?=(?:.*[0-9]){3})[a-zA-Z0-9#*.!?$,]{8,}$/;
+    let ekse = regex.exec(password)
+    if(ekse) {
+        return true;
+    }
+    return false
+}
+console.log(password('Dap0#r'))
+console.log(password('T3pungB#3r4s!'))
